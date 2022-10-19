@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>mmm</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    @media screen and (max-width:1029px) {
+        .link {
+            position: absolute;
+    top: 54%;
+    color: rgb(17, 0, 253);
+    height: 20vh;
+ 
+    left: 11%;
+    overflow: hidden;
+ 
+          
+        }
+        .meet img{
+            position: absolute;
+    top: 18%;
+    right: 7%;
+    height: 25%;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div id="start"><a href="/index.html">R <img src="coder.jpg" alt=""> Kanav</a> </div>
+        <nav>
+            <ul>
+                <li><button><a href="/skills.html">Skills</a></button></li>
+                <li><button><a href="/Education.html">Education</a></button></li>
+                <li><button><a href="/Contact.html">Contact</a></button></li>
+            </ul>
+        </nav>
+        <div class="button">
+            <button style="left: 43%; top:80%"><a href="/index.html">Back</a></button>
+        </div>
+
+
+        <div class="link">
+            <form><input type="text" placeholder="Enter your name" style="width:60vh;background-color: black;   "><br>
+                <input type="var" placeholder="Enter your Email" style="width:60vh;background-color: black;  "><br>
+                <input type="number" placeholder="Enter your number"
+                    style="width:60vh;background-color: black; color: white; ">
+                <br>
+                <input type="date" style="background-color: black;  color:rgb(17, 0, 253);">
+            </form>
+
+            <button class="submit"
+                style="  background-color: rgb(17, 0, 253); border: 12px; padding: 5px 0px; width: 10%;border-radius: 10px;"
+                onclick="gayab()">Submit</button><br>
+            <span id="submit" style="font-size: 2rem; color:white;"></span>
+
+            <i style="font-size:36px"><a href="https://twitter.com/KANAVKUMARRANA1"
+                    class="fa fa-twitter-square"></a></i>
+            <i style='font-size:36px'><a href="" class='fa fa-instagram'></a></i>
+            <i style="font-size:36px"><a href="https://www.linkedin.com/in/kanav-kumar-3704a8221/"
+                    class="fa fa-linkedin"></a></i>
+            <i style="font-size:36px"><a href="https://github.com/kanav789" class="fa fa-github"></a></i>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <div class="meet"><img src="meet.jpg" alt=""></div>
+
+    <footer>
+        <div class="end">copyright@ <span> <a href="#">Portfolio</a> </span> website2022
+        </div>
+    </footer>
+
+</body>
+<script>
+    function gayab() {
+        document.getElementById("submit").innerHTML = 'thanks for submitting';
+    }
+</script>
+<script src="script1.js"></script>
+
+</html>
