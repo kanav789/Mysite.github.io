@@ -1,21 +1,19 @@
 /* home page design */
+/* home page design */
 @media screen and (max-width: 870px) {
    
   
 .img img {
-    top: 51%;
-    height: 72vh;
-    right: 1%;
-    display: flex;
+   position: relative;
+   display: flex;
+    
+    margin: auto;
 }
 
 div.text {
     color: rgb(17, 0, 253);
-    right: 31%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
+
+
     height: 2vh;
 }
 
@@ -63,12 +61,9 @@ div.text {
 }
 
 footer .end {
-    display: flex;
-    justify-content: center;
+  
     color: rgb(17, 0, 253);
-    position: absolute;
-    bottom: -290px;
-    margin-left: 21%;
+    
 }
 
 
