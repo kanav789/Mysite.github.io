@@ -1,5 +1,4 @@
 /* home page design */
-/* home page design */
 @media screen and (max-width: 870px) {
    
   
@@ -12,9 +11,9 @@
 
 div.text {
     color: rgb(17, 0, 253);
-
-
-    height: 2vh;
+display: flex;
+ position: relative;
+ margin: auto 42vh;
 }
 
 nav ul {
@@ -30,10 +29,15 @@ nav ul {
 
 .animation p {
     color: rgb(17, 0, 253);
-    top: 46%;
+    /* top: 46%;
     display: flex;
     flex-wrap: wrap;
-    right: 12%;
+    right: 12%; */
+
+    position: relative;
+    margin: auto 42vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .button button {
@@ -68,6 +72,9 @@ footer .end {
 
 
 }
+
+
+
 
 
 
